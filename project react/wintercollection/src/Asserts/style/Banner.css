@@ -1,0 +1,105 @@
+.box1{
+    /* border: 1px solid; */
+    /* height: 500px; */
+    background-image: url(../Images/hero/h1_hero.jpg);
+    display: flex;
+}
+
+.box2{
+    background-image: url(../Images/hero/hero_man.png);
+    background-repeat: no-repeat;
+    height: 764px;
+    width: 800px;
+
+}
+
+.box3{
+    align-self: center;
+}
+
+.butt{
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    width: 100px;
+}
+
+.para1 {
+    font-style: oblique;
+    font-family: fangsong;
+    font-size: 35px;
+    color: blue;
+    font-weight: bold
+}
+
+.he1{
+    font-size: 100px;
+    font-family: initial;
+    font-weight: bold;
+}
+
+.he2{
+    font-size: 100px;
+    font-family: initial;
+    font-weight: bold;
+}
+
+.para2{
+    font-style: oblique;
+    font-family: serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width : 780px) {
+
+    .box1{
+        height: 437px;
+    } 
+    .box2{
+    
+    height: 500px;
+    width: 500px;   
+    background-image: url(../Images/hero/hero_man.png);
+    background-size:contain;     
+    }
+
+   .box3 p{
+    font-style: oblique;
+    font-family: fangsong;
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+   }
+
+   .box3 h1{
+    font-size: 60px;
+    font-family: initial;
+    font-weight: bold;
+   }
+
+   .box3 h1{
+    font-size: 60px;
+    font-family: initial;
+    font-weight: bold;
+   }
+
+   .box3 p{
+    font-style: oblique;
+    font-family: serif;
+    font-size: 19px;
+    font-weight: bold;
+    /* color: black; */
+   }
+
+   .butt{
+    margin-left: 60px;
+   }
+
+
+}

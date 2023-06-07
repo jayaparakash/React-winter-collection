@@ -1,0 +1,234 @@
+
+
+.pag1{
+    margin-top: 100px;
+    height: 280px;
+    background-color: #87ceeb52;
+    display: flex;
+}
+
+.Text{
+    width:"fit-content";
+    margin-top: 60px;
+}
+.hline {
+    margin-left: 190px;
+}
+
+.pline{
+    margin-left: 190px; 
+}
+
+.SecBox{
+    display: flex;
+    margin-left: 60px;
+}
+
+.Merg{
+    display: flex;
+    margin-top: 125px;
+    height: 35px;
+    border-radius: 21px;
+    width: 301px;   
+}
+
+.Pc{
+    width: 195px;
+}
+
+.form-control1{
+    border-radius: 23px;
+    border: none;
+    width: 250px;
+    margin-right: 24px;
+    height: 40px
+}
+
+.Bts {
+    border-radius: 21px;
+    border: none;
+    width: 100px;
+    font-size: 12px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+}
+
+.logtext{
+    margin-top: 100px;
+    height: 200px;    
+    display: flex;
+    justify-content: space-around;
+}
+
+.logtext > div{
+    /* border: 1px solid; */
+
+    height: 150px;
+    width: 290px;
+}
+
+@media screen and (max-width : 780px) {
+    .pag1{
+        display: block;
+        text-align: -webkit-center;
+        height: 250px;
+    }
+
+    .Text{
+        
+    }
+
+    .hline{
+        margin-left: 0px;
+    }
+
+    .pline{
+        margin-left: 190px;
+    }
+
+    .SecBox{
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .Merg{
+        display: flex;
+    margin-top: 30px;
+    height: 35px;
+    border-radius: 21px;
+    width: 300px;
+    margin-left: 90px;
+    background-color: white;
+    }
+
+    .pc{
+        width: 195px;
+    border-radius: 20px;
+    background-color: aliceblue;
+
+    }
+
+    .Bts{
+        
+    border-radius: 21px;
+    border: none;
+    width: 110px;
+    font-size: 12px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    }
+
+
+    }
+
+
+    .Pics{
+        height: 300px;
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .Pic1{
+        background-image: url(../Images/gallery/gallery1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:244px;
+      
+    }
+
+    .Pic2{
+        background-image: url(../Images/gallery/gallery2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:245px;
+        
+    }
+
+    .Pic3{
+        background-image: url(../Images/gallery/gallery3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 260px;
+        
+    }
+
+    .Pic4{
+        background-image: url(../Images/gallery/gallery4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:260px;
+        
+    }
+
+    .Pic5{
+        background-image: url(../Images/gallery/gallery5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:290px;
+        
+    }
+
+
+    @media screen and (max-width:780px) {
+        .Pics{
+            height: 300px;
+            display: flex;
+            margin-top: 100px;
+        }
+    
+        .Pic1{
+            background-image: url(../Images/gallery/gallery1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:244px;
+          
+        }
+    
+        .Pic2{
+            background-image: url(../Images/gallery/gallery2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:245px;
+            
+        }
+    
+        .Pic3{
+            background-image: url(../Images/gallery/gallery3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 260px;
+            
+        }
+    
+        .Pic4{
+            background-image: url(../Images/gallery/gallery4.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:260px;
+            
+        }
+    
+        .Pic5{
+            background-image: url(../Images/gallery/gallery5.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:290px;
+            
+        }
+    }
+
+    @media screen and (max-width:780px) {
+        .logtext > div {
+            height: 200px;
+            width: 290px;
+            margin-left: 40px;
+        }
+    }
+
+    @media screen and (min-width:780px){
+        
+    }
+    

@@ -1,0 +1,105 @@
+.Footerbox {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.fbox1{
+    width: 250px;
+    margin-right: 30px;
+
+}
+
+.fbox1 img{
+    height: 50px;
+}
+
+.fbox1 p{
+    margin-top: 30px;
+    height: 10px;
+}
+
+.fbox1 h1{
+    font-size: 20px;
+    text-align: inherit;
+    font-weight: bold;
+
+}
+
+.fbox2{
+    width: 250px;
+}
+
+.fbox2 p{
+    margin-top: 30px;
+    height: 10px;
+}
+
+.fbox2 h1{
+    font-size: 20px;
+    text-align: inherit;
+    font-weight: bold;
+}
+
+.fbox3{
+    width: 250px;
+}
+
+.fbox3 h1{
+    font-size: 20px;
+    text-align: inherit;
+    font-weight: bold;
+
+}
+
+.fbox3 p{
+    margin-top: 30px;
+    height: 10px;
+}
+
+
+.fbox4{
+    width: 250px;
+}
+
+.fbox4 p {
+    margin-top: 30px;
+    height: 10px;
+}
+
+.fbox4 h1{
+    font-size: 20px;
+    text-align: inherit;
+    font-weight: bold;
+    
+}
+
+@media screen and (min-width : 780px){
+    .fbox1{
+        width: 250px;
+        margin-right: 25px;
+    }
+}
+
+    /* .Footerbox {
+      display: block;
+    }
+
+    .fbox2{
+        margin-top: 100px;
+        
+    }
+
+    .fbox3{
+        margin-top: 60px;
+    }
+
+    .fbox4{
+        margin-top: 60px;
+    } */
+
+
+.F2{
+    display: flex;
+}

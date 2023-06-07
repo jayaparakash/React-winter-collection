@@ -1,0 +1,114 @@
+.WCBlog{
+    display: flex;
+    height: 600px;
+    margin-top: 250px;
+}
+
+.blo1{
+    width: 550px;
+    text-align: center;
+    align-self: center;
+}
+
+.Text1{
+    margin-top: 140px;
+    margin-bottom: 36px;
+}
+
+.blo1Img{
+    background-image: url(../Images/collection/collection1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 280px;
+    margin-left: 145px;
+    margin-top: 95px;
+}
+
+.blo2{
+    width: 360px;
+    background-image: url(../Images/collection/collection2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.blo3{
+    align-self: center;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 146px;
+}
+
+.Textblo3{
+    text-align: center;
+}
+
+.blo3Text1{
+    height: 150px;
+    width: 144px;
+    margin-top: 55px;
+
+}
+
+.blo3Text2{
+    height: 150px;
+    width: 144px;
+}
+
+.blo3Text3{
+    height: 150px;
+    width: 144px;
+}
+
+
+
+.blo3IMG1{
+    height: 150px;
+    width: 150px;
+    background-image: url(../Images//collection/collection3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.blo3IMG2{
+    height: 150px;
+    width: 150px;
+    background-image: url(../Images//collection/collection4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.blo3IMG3{
+    height: 150px;
+    width: 150px;
+    background-image: url(../Images//collection/collection5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width : 780px) {
+.WCBlog{
+    display: inline-block;
+    height: 100%;
+    margin-top: 50px;
+}
+.blo1{
+    margin-left: 56px;
+}
+
+.blo2{
+    width: 430px;
+    height: 500px;
+    background-image: url(../Images/collection/collection2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 236px;
+    margin-top: 70px;
+}
+
+.blo3{
+    justify-content: center;
+}
+}

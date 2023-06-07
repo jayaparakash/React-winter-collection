@@ -1,0 +1,134 @@
+.Header{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    
+}
+
+.logo img{
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#DropS{
+    color: white;
+    background-color: black;
+    border: none;
+    margin-top: 17px
+}
+
+.Num p{
+    margin-top: 17px;
+    color: white;
+}
+
+.nav-link Link {
+    color: white;
+
+}
+
+.Header2{
+    display: flex;
+}
+
+.form-control1{
+    height: 30px;
+}
+
+
+@media screen and (max-width : 780px) {
+
+    .btn.disabled, .btn:disabled, fieldset:disabled .btn {
+        display: none;
+    }
+    .img{
+        display: flex;
+        /* position: absolute; */
+        top :15px;
+        margin-left: 200px;
+    }
+
+    .navi2 {
+        display: none;
+
+    }
+
+    /* .navbar{
+        display: none;
+    } */
+
+    .navbar-nav{
+        display: none;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .nav-link{
+        display: none;
+    }
+    .placeholder1 {
+        display: none;
+        border: none;
+    }
+
+    .ps1{
+        display: none;
+    }
+    .form-control1 {
+        display: none;
+    }
+
+    .FaSistrix{
+        display: none;
+    }
+
+    .FaHeart{
+        display: none;
+    }
+
+    .FaCartArrowDown{
+        display: none;
+    }
+    
+    .foo{
+        display: none;
+    }
+    .foo2{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    } 
+
+    .navbar{
+        display: list-item;
+    }
+
+
+
+}
+
+@media screen and (min-width : 1336px){
+    .navbar-toggler {
+        display: none;
+    }
+
+    .nav-links-moblie{
+        display: none;
+    }
+    .nav-item2{
+        display: none;
+    }
+    .Home,
+    .Catagori,
+    .Latest,
+    .Blog,
+    .pages,
+    .Contact{
+        display: none;
+    }
+}
